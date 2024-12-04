@@ -12946,7 +12946,7 @@ class Nsgroup(InfobloxObject):
                'external_secondaries', 'grid_primary', 'grid_secondaries',
                'is_grid_default', 'is_multimaster', 'name',
                'use_external_primary']
-    _search_for_update_fields = ['name']
+    _search_for_update_fields = ['name', 'is_multimaster']
     _updateable_search_fields = ['comment', 'name']
     _all_searchable_fields = ['comment', 'name']
     _return_fields = ['comment', 'extattrs', 'name']
